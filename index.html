@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>72.20 | Wick Studio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --discord-blurple: #5865F2;
+            --discord-dark: #2C2F33;
+            --code-bg: #1E1E1E;
+        }
+
+        body {
+            font-family: 'Consolas', monospace;
+            background: var(--discord-dark);
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            border-bottom: 2px solid var(--discord-blurple);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: var(--discord-blurple);
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .project-card {
+            background: #36393f;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .bot-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+            color: #B9BBBE;
+        }
+
+        /* Code Snippet Styling */
+        .code-snippet {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+            font-family: 'Consolas', monospace;
+        }
+
+        /* Discord-specific Section */
+        .discord-integration {
+            background: var(--discord-blurple);
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        /* Contact Buttons */
+        .contact-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .discord-btn {
+            background: var(--discord-blurple);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <h1>Discord Bot Status</h1>
+        <div id="status">
+            <div class="status-item" id="">Uptime: Loading...</div>
+            <div class="status-item" id="">Servers: Loading...</div>
+            <div class="status-item" id="Wick Studio"></div>
+        </div>
+    </div>
+<div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Wick Studio</h1>
+            <p>Wick Studio Is The Place That You Cannot Find An End For It!</p>
+            <div class="code-snippet">
+            
+            </div>
+        </section>
+        <!-- Add this in the hero section after the code snippet -->
+        <div class="hero-links">
+    <a href="https://github.com/ziadta3bannafsianwmokt2b" target="_blank">
+        <i class="fab fa-github"></i> GitHub User
+    </a>
+    <a href="https://discord.gg/KXGnFx4TDK" target="_blank">
+        <i class="fab fa-discord"></i> Discord Server
+    </a>
+    <a href="https://discord.gg/witon" target="_blank">
+        <i class="fab fa-discord"></i> Wick Studio
+    </a>
